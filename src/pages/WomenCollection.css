@@ -1,0 +1,55 @@
+.woman-container {
+    width: 87%;
+    margin: auto;
+}
+
+.woman-container > h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 7px;
+    letter-spacing: -2px;
+}
+
+.woman-container > p {
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+.img-woman {
+    width: 100%;
+    /* height: 63%; */
+    border-radius: 8px;
+}
+
+.right-arrow-women {
+    position: absolute;
+    top: 60%;
+    right: 30px;
+    font-size: 3rem;
+    color: #000;
+    cursor: pointer;
+    z-index: 9999;
+    user-select: none;
+}
+
+.left-arrow-women {
+    position: absolute;
+    left: 30px;
+    top: 60%;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 99999;
+    color: #000;
+    user-select: none;
+}

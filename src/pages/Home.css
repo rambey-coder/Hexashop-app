@@ -1,0 +1,328 @@
+.contain {
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card1 {
+    /* width: 36%; */
+    position: relative;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.text-content {
+    position: absolute;
+    top: 35%;
+    right: 16%;
+}
+
+div.card1 > div > h1 {
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 900;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+div.card1 > div > p {
+    font-style: italic;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.img-link {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.img-link:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 2s ease;
+}
+
+
+.card2 {
+    width: 63%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    gap: 20px;
+    /* position: relative; */
+}
+
+.sub1, .sub2 {
+    width: 50%;
+    position: relative;
+}
+
+.martb {
+    margin-bottom: 10px;
+}
+
+.sub-img {
+    width: 100%;
+}
+
+.cont {
+    position: absolute;
+    top: 100px;
+    z-index: 9999;
+    left: 67px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cont1 {
+    position: absolute;
+    top: 23em;
+    z-index: 9999;
+    left: 67px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.general, .gen {
+    cursor: pointer;
+}
+
+
+.general:hover .onhover {
+    visibility: visible;
+    transition: 2s ease;
+}
+
+.gen:hover .onhover1 {
+    visibility: visible;
+    transition: 2s ease;
+}
+
+.onhover {
+    background-color: rgba(0, 0, 0, 0.952);
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    height: 238px;
+    top: 12px;
+    left: 16px;
+    z-index: 99999;
+    cursor: pointer;
+    padding: 35px;
+    visibility: hidden;
+}
+
+.onhover1 {
+    background-color: rgba(0, 0, 0, 0.959);
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    height: 238px;
+    top: 18em;
+    left: 16px;
+    z-index: 99999;
+    cursor: pointer;
+    padding: 35px;
+    visibility: hidden;
+}
+
+
+ div.onhover > h2,  div.cont > h2, div.onhover1 > h2, div.cont1 > h2 {
+     color: #fff;
+     margin-bottom: 9px;
+ }
+
+div.onhover > p, div.cont > p,  div.onhover1 > p, div.cont1 > p {
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hover-link, .hover-link1 {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #fff;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.hover-link:hover, .hover-link1:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 2s ease;
+}
+
+@media (max-width: 1378px) {
+    .contain {
+        flex-direction: column;
+    }
+
+    .card1, .card2 {
+        width: 100%;
+    }
+
+    .text-content {
+        top: 40%;
+        right: 50%;
+        margin-left: 44px;
+    }
+
+    .cont {
+        top: 23%;
+        left: 30%;
+    }
+
+    .cont1 {
+        top: 72%;
+        left: 30%;
+    }
+
+    .onhover {
+        height: 30em;
+        top: 29px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .onhover1 {
+        height: 30em;
+        bottom: -252px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 809px) and (max-width: 1307px) {
+    .onhover {
+        height: 18em;
+        top: 19px;
+        left: 0;
+        right: 0;
+    }
+    .onhover1 {
+        height: 18em;
+        bottom: -46px;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 809px) {
+    .text-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+        left: 0;
+        /* top: 73px; */
+        width: 100%;
+    }
+
+    div.card1 > div > h1 {
+        font-size: 30px;
+    }
+
+    div.card1 > div > p {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .img-link {
+        margin-top: 12px;
+    }
+
+    .card2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sub1, .sub2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:388px) {
+    .cont {
+        top: 110px;
+        left: 101px;
+    }
+
+    .onhover {
+        height: 17em;
+        left: 18px;
+        top: 17px;
+    }
+
+    .cont1 {
+        top: 27em;
+        left: 105px;
+    }
+
+    .onhover1 {
+        top: 114px;
+        height: 17.5em;
+        left: 19px;
+    }
+}
+
+@media (min-width: 384px) and (max-width: 602px) {
+    .onhover {
+        height: 18.5em;
+        left: 0;
+        right: 0;
+    }
+
+    .onhover1 {
+        height: 18.5em;
+        bottom: -45px;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 374px) {
+    .cont {
+        left: 42px;
+    }
+
+    .onhover {
+        height: 14em;
+        left: 0;
+        right: 0;
+    }
+
+    .cont1 {
+        top: 67%;
+        left: 23%;
+    }
+
+    .onhover1 {
+        height: 14em;
+        top: 13px;
+        left: 0;
+        right: 0;
+    }
+}
