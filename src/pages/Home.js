@@ -8,10 +8,10 @@ const Home = () => {
         <div className="contain">
 
           <div className="card1">
-            <img src='./images/left-banner-image.jpg' className='banner-img'/>
+            <img src='./images/left-banner-image.jpg' className='banner-img' alt='banner'/>
             <div className="text-content">
               <h1>We Are Hexashop</h1>
-              <p>Awesome, clean & creative HTML5 Template</p>
+              <p>Awesome, clean &amp; creative HTML5 Template</p>
         
               <Link to='/' className='img-link'>
                 Purchase Now!
